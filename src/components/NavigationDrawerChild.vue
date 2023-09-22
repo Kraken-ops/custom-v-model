@@ -1,5 +1,5 @@
 <template>
-  <v-sheet height="400" class="overflow-hidden" style="position: relative">
+  <v-sheet height="90vh" class="overflow-hidden" style="position: absolute;width: 98vw;top: 10px;">
     <!-- <v-container class="fill-height">
       
     </v-container> -->

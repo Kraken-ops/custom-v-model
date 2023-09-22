@@ -1,14 +1,13 @@
 <template>
   <div>
     <v-row class="justify-center d-flex ma-8">
-        <v-btn class="button" color="pink" dark @click.stop="drawer = !drawer">
+      <v-btn class="button" style="z-index:1;" color="pink" dark @click.stop="drawer = !drawer">
         <v-icon>mdi-tag-multiple</v-icon>
         Tags
       </v-btn>
     </v-row>
-      
+
     <navigation-drawer-child v-model="drawer"></navigation-drawer-child>
-    
   </div>
 </template>
 
@@ -25,8 +24,8 @@ export default {
 </script>
 
 <style>
-.button{
-    justify-content: center;
-    display: flex;
+.button {
+  justify-content: center;
+  display: flex;
 }
 </style>
